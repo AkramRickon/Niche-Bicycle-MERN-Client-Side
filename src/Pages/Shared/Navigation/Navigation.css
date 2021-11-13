@@ -1,0 +1,28 @@
+
+.NavLink-style
+{
+    text-decoration: none;
+    color:white;
+    display: inline-block;
+    padding:5px 10px;
+    margin-right: 10px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.NavLink-style:hover{
+    color:rgb(10, 2, 26);
+    background:wheat;
+
+
+}
+.logout-button
+{
+    color:white;
+    background-color:#04AA6D;
+    border: 1px solid #04AA6D;
+    padding:5px;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 5px;
+}

@@ -1,0 +1,22 @@
+
+.registration-form form
+{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.registration-form >form> input
+{
+    width:300px;
+    margin:10px;
+}
+
+.registration-form{
+    background-image: url('../../images/cycle-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:700px;
+}

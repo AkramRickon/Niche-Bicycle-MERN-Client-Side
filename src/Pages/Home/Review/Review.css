@@ -1,0 +1,21 @@
+
+
+
+
+.profile-picture
+{
+    height:150px !important;
+    width: 150px !important;
+    border-radius: 50% !important;
+    margin:auto;
+}
+
+.icon-color
+{
+    color:rgb(255, 187, 0);
+}
+
+.rating-text
+{
+    color:rgb(253, 114, 0);
+}

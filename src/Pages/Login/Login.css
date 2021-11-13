@@ -1,0 +1,22 @@
+
+.login-form form
+{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.login-form >form> input
+{
+    width:300px;
+    margin:10px;
+}
+
+.login-form{
+    background-image: url('../../images/cycle-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:700px;
+}

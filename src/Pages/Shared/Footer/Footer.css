@@ -1,0 +1,30 @@
+ul li 
+{
+    list-style-type: none;
+}
+
+.fab
+{
+    color:rgb(231, 230, 230);
+    margin:5px;
+    padding:6px;
+    font-size:18px;
+    border:2px solid white;
+    border-radius: 50%;
+}
+
+.copyright-bg 
+{
+    background-color:#282d31;
+}
+
+.phone-num-color 
+{
+    color:#FF492F;
+}
+
+.footer-img
+{
+    width:85px;
+    height:60px;
+}
