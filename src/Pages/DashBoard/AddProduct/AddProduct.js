@@ -1,6 +1,5 @@
 import React from 'react';
 import './AddProduct.css';
-import { Container } from 'react-bootstrap';
 import { useForm } from "react-hook-form";
 import swal from 'sweetalert';
 
@@ -28,7 +27,7 @@ const AddProduct = () => {
 
             <form onSubmit={handleSubmit(onSubmit)}>
                 {/* register your input into the hook by invoking the "register" function */}
-                <h2 className="my-4"><span className="bg-light px-5 rounded">Add Products</span></h2>
+                <h2 className="my-4"><span className="text-white bg-success px-5 rounded">Add Products</span></h2>
                 <input className='form-control' {...register("model", { required: true })} placeholder="Product Name/Model" />
                 <input className='form-control' {...register("brand", { required: true })} placeholder="Brand In Block Letters" />
                 <input type="number" className='form-control'{...register("price", { required: true })} placeholder="Price" />

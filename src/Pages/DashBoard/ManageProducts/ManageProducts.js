@@ -46,7 +46,7 @@ const ManageProducts = () => {
 
     return (
         <Container className="">
-           <h2 className="text-center my-3">Manage All Products</h2>
+           <h2 className="text-center my-3  ">Manage All Products</h2>
             <Container>
             <Table responsive="sm" className="table table-dark table-striped">
                 <thead>

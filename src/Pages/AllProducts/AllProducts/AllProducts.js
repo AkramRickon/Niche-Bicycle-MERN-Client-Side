@@ -25,7 +25,7 @@ const AllProducts = () => {
                         (loading) &&   <Spinner animation="border" variant="info" />
                     }
                 </div>
-                <h2 className="text-center my-5">Our All <span className="text-success">Products</span></h2>
+                <h2 className="text-center my-5">Our All <span className="text-success fw-bold">Products</span></h2>
                 <Container>
                     <Row xs={1} md={2} lg={3} className="g-5">
                         {

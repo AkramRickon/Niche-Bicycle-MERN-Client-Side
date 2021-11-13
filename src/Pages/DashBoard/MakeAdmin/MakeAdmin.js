@@ -31,9 +31,9 @@ const MakeAdmin = () => {
         <Container className="admin-form my-5">
 
             <form onSubmit={handleSubmit(onSubmit)}>
-                <h2 className="my-3"><span className="bg-light text-dark px-5">Admin Pannel</span></h2>
+                <h2 className="mb-5"><span className="bg-success text-white rounded py-1 px-5">Admin Pannel</span></h2>
                 <input type='text' className='form-control'{...register("email", { required: true })} placeholder="Email" />
-                <button  className='btn btn-success' type="submit"><h6>Make Admin</h6></button>
+                <button  className='btn btn-success' type="submit"><h6> <i className="me-2 fas fa-user-shield"></i>Make Admin</h6></button>
             </form>
         </Container>
     );

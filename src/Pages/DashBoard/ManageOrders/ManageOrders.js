@@ -80,7 +80,7 @@ const ManageOrders = () => {
 
     return (
         <Container>
-            <h2 className="text-center my-5">Manage All Orders</h2>
+            <h2 className="text-center my-3">Manage All Orders</h2>
             <Table responsive="sm" className="table table-dark table-striped">
                 <thead>
                     <tr>
