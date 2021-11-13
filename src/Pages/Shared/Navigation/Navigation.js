@@ -15,7 +15,7 @@ const Navigation = () => {
                     <Nav className="ms-auto">
                     <NavLink className="NavLink-style" to='/home'>Home</NavLink>
                         <NavLink className="NavLink-style" to='/products'>Explore BiCycle</NavLink>
-                        <NavLink className="NavLink-style" to='dashBoard'>DashBoard</NavLink>
+                        <NavLink className="NavLink-style" to='/dashBoard'>DashBoard</NavLink>
                         {user?.email && <span style={{ color: "orange", padding: "5px 20px" ,fontSize:'18px',fontWeight:'bold'}}>{user.displayName}</span>}
                         {
                             (user?.email) ?

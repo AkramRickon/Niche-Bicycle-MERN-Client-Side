@@ -11,7 +11,7 @@ const MakeAdmin = () => {
     const onSubmit = data => {
         console.log(data);
 
-        fetch('http://localhost:5000/makeAdmin',{
+        fetch('https://lit-fjord-01579.herokuapp.com/makeAdmin',{
             method:"PUT",
             headers : {"content-type" : "application/json"},
             body: JSON.stringify(data)

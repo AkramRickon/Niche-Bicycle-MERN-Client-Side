@@ -3,7 +3,7 @@ import './stores.css';
 
 const Stores = () => {
     return (
-        <div className="container custom-color-store mb-4 rounded p-3">
+        <div className="container custom-color-store mb-5 rounded p-3">
             <div className="row g-2">
                 <div className="col-lg-6">
                     <h1 className=" text-center">Our <span className="custom-color">Stores</span></h1>

@@ -40,49 +40,26 @@ function App() {
               <Login></Login>
             </Route>
 
-            {/* <Route path='/review'>
-              <Review></Review>
-            </Route> */}
-
-            {/* <Route path='/makeAdmin'>
-              <MakeAdmin></MakeAdmin>
-            </Route>
-
-            <PrivateRoute path='/addProduct'>
-              <AddProduct></AddProduct>
-            </PrivateRoute> */}
-
-
-
-{/* 
-            <PrivateRoute path='/myOrders'>
-              <MyOrders></MyOrders>
-            </PrivateRoute>
-
-            <PrivateRoute path='/addReview'>
-              <AddReview></AddReview>
-            </PrivateRoute>
-
-            <PrivateRoute path='/manageOrders'>
-              <ManageOrders></ManageOrders>
-            </PrivateRoute>
-
-            <PrivateRoute path='/manageProducts'>
-              <ManageProducts></ManageProducts>
-            </PrivateRoute> */}
+           
 
 
             <Route path='/products'>
               <AllProducts></AllProducts>
             </Route>
 
-            <PrivateRoute path='/order/:productId'>
+            <PrivateRoute exact path='/order/:productId'>
               <Order></Order>
             </PrivateRoute>
+
+            {/* <PrivateRoute  path='/order/dashBoard'>
+              <DashBoard></DashBoard>
+            </PrivateRoute> */}
 
             <PrivateRoute path='/dashBoard'>
               <DashBoard></DashBoard>
             </PrivateRoute>
+
+           
 
             <Route path='/registration'>
               <Registration></Registration>

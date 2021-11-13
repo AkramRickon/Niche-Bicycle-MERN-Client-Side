@@ -8,7 +8,7 @@ const Review = () => {
 
     const [reviews, setReviews] = useState();
     useEffect(() => {
-        fetch('http://localhost:5000/allReviews')
+        fetch('https://lit-fjord-01579.herokuapp.com/allReviews')
             .then(res => res.json())
             .then(data => setReviews(data))
     }, [])
@@ -21,8 +21,8 @@ const Review = () => {
                 <Row xs={1} md={2} lg={3} className="g-5">
                     {
                         reviews?.map(review => (
-                            <CardGroup>
-                                <Card className="shadow rounded border border-success ">
+                            <CardGroup key={review?._id} >
+                                <Card  className="shadow rounded border border-secondary ">
                                     <Card.Img variant="top" src={img} className="profile-picture pt-2" />
                                     <Card.Body className="text-center">
                                         <Card.Title className="fw-bold text-info">{review?.name}</Card.Title>

@@ -12,7 +12,7 @@ import Stores from '../Stores/Stores';
 
 const Home = () => {
     return (
-        <>
+        <div className="">
             <Navigation></Navigation>
             <Slider></Slider>
             <Container>
@@ -24,7 +24,7 @@ const Home = () => {
 
             </Container>
             <Footer></Footer>
-        </>
+        </div>
     );
 };
 

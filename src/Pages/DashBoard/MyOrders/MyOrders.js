@@ -12,7 +12,7 @@ const MyOrders = () => {
     const [control, setControl] = useState(false);
 
     useEffect(() => {
-        fetch(`http://localhost:5000/orders/${user?.email}`)
+        fetch(`https://lit-fjord-01579.herokuapp.com/orders/${user?.email}`)
             .then(res => res.json())
             .then(data => setOrders(data));
     }, [control])
@@ -30,7 +30,7 @@ const MyOrders = () => {
             .then((willDelete) => {
                 if (willDelete) {
 
-                    fetch(`http://localhost:5000/orders/${id}`, {
+                    fetch(`https://lit-fjord-01579.herokuapp.com/orders/${id}`, {
                         method: "DELETE",
                         header: { "content-type": "application/json" },
                     })

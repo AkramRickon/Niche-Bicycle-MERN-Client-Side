@@ -10,7 +10,7 @@ const Products = () => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        fetch('http://localhost:5000/products')
+        fetch('https://lit-fjord-01579.herokuapp.com/products')
             .then(res => res.json())
             .then(data =>{
                 setProducts(data);
@@ -38,7 +38,7 @@ const Products = () => {
             <div className="text-center mt-4 ">
                 <Link to='/products'>
                     
-                        <button className="btn btn-outline-info fw-bold "> View All Products <i className="ms-2 fas fa-arrow-right"></i></button>
+                        <button className="btn btn-outline-primary fw-bold "> View All Products <i className="ms-2 fas fa-arrow-right"></i></button>
                     
                 </Link>
             </div>

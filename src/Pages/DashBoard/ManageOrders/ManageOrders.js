@@ -8,7 +8,7 @@ const ManageOrders = () => {
     const [control, setControl] = useState(false);
 
     useEffect(() => {
-        fetch('http://localhost:5000/orders')
+        fetch('https://lit-fjord-01579.herokuapp.com/orders')
             .then(res => res.json())
             .then(data => setOrders(data))
     }, [control])
@@ -26,7 +26,7 @@ const ManageOrders = () => {
             .then((willDelete) => {
                 if (willDelete) {
 
-                    fetch(`http://localhost:5000/orders/${id}`, {
+                    fetch(`https://lit-fjord-01579.herokuapp.com/orders/${id}`, {
                         method: "DELETE",
                         header: { "content-type": "application/json" },
                     })
@@ -54,7 +54,7 @@ const ManageOrders = () => {
         })
             .then((willDelete) => {
                 if (willDelete) {
-                    fetch(`http://localhost:5000/orders/${id}`, {
+                    fetch(`https://lit-fjord-01579.herokuapp.com/orders/${id}`, {
                         method: "PUT",
                         headers: { "content-type": "application/json" },
                         body: JSON.stringify({ status: "Shipped" })

@@ -16,7 +16,7 @@ const BookingModal = ({ handleClose, show, product }) => {
     const onSubmit = data => {
         console.log(data);
         data.status = "Pending";
-        fetch('http://localhost:5000/addOrders', {
+        fetch('https://lit-fjord-01579.herokuapp.com/addOrders', {
             method: "POST",
             headers: { "content-type": "application/json" },
             body: JSON.stringify(data)
