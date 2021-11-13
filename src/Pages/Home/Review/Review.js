@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Card, CardGroup, Container, Row } from 'react-bootstrap';
-import img from '../../../images/pp.jpg';
+import img from '../../../images/profile picture3.svg.png';
 import Rating from 'react-rating';
 import './Review.css';
 
